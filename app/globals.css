@@ -6,22 +6,62 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html, body, :root {
+  height: 100%;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+.row {
+  @apply flex justify-center items-center;
+}
+
+.row-h {
+  @apply flex justify-center;
+}
+
+.row-v {
+  @apply flex items-center;
+}
+
+.row-end {
+  @apply flex justify-end;
+}
+
+.col-h {
+  @apply flex flex-col justify-center;
+}
+
+.col-v {
+  @apply flex flex-col items-center;
+}
+
+.inline-h {
+  @apply inline-flex justify-center;
+}
+
+.pointer {
+  @apply cursor-pointer;
+}
+
+.u {
+  @apply uppercase;
+}
+
+.bg-img {
+  @apply bg-cover bg-no-repeat bg-center;
+}
+
+.bold {
+  @apply font-bold;
+}
+
+.semibold {
+  @apply font-semibold;
+}
+
+.max-w-fit {
+  max-width: fit-content;
 }

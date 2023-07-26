@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Anime App
 
-## Getting Started
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/dragan717080/Kitsu/assets/135660124/3472b65d-5399-4895-80b4-99abff5b30a2" 
+    alt="Anime App Logo" height="430" width="800">
+</div>
 
-First, run the development server:
+Welcome to the Airbnb! This application is built with Next.js, TypeScript, and Tailwind CSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The Anime App is built using following technologies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js** - Next.js is a popular React framework that enables server-side rendering (SSR) and static site generation (SSG), making the application fast and SEO-friendly.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **TypeScript** - TypeScript is a programming language developed and maintained by Microsoft. It is a superset of JavaScript, meaning that it extends JavaScript by adding static typing to the language.
 
-## Learn More
+- **Tailwind CSS** - Tailwind CSS is a utility-first CSS framework that provides a wide range of pre-designed utility classes, allowing for rapid and flexible UI development.
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌟 Explore Limitless Possibilities
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Dive into an expansive collection of anime shows and movies. Uncover hidden gems, rediscover classics, and be the first to embrace the latest releases.
 
-## Deploy on Vercel
+## ❤️ Love and Share the Magic
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+With a simple click, you can add shows to your watchlist and bond with other users.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🤝 Embrace the Power of Unity
+
+Join user groups to discuss your favorite shows and characters. Leave a review
+to let others know how you felt about them.
+
+## 🎉 Experience Social Authentication
+
+Sign in with ease using your favorite social media platforms. No more creating new accounts or remembering passwords!
