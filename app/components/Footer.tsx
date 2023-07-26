@@ -12,7 +12,7 @@ const Footer: FC = () => {
       {Object.keys(hotelData).map((category, index) => (
         <div className='space-y-4 text-xs text-gray-700' key={index}>
           <h5 className="font-bold">{category === 'Villas' ? 'Asia Villas' : category}</h5>
-          {hotelData[category as keyof HotelData].map((hotel, hotelIndex) => (
+          {hotelData[category as keyof typeof hotelData].map((hotel, hotelIndex) => (
             <p key={hotelIndex}>{`${hotel} ${category === 'Villas' ? 'Villas' : 'Hotels'}`}</p>
           ))}
         </div>
