@@ -1,7 +1,8 @@
 import { FC } from 'react';
 import Image from 'next/image';
+import ExploreCardProps from '../interfaces/props/ExploreCardProps';
 
-const ExploreCard: FC = ({ item }) => {
+const ExploreCard: FC<ExploreCardProps> = ({ item }) => {
   const { img, location, distance } = item;
 
   return (
