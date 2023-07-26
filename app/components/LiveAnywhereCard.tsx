@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import Image from 'next/image';
-import ExploreCardProps from '../interfaces/props/ExploreCardProps';
+import LiveAnywhereCardProps from '../interfaces/props/LiveAnywhereCardProps';
 
-const LiveAnywhereCard: FC<ExploreCardProps> = ({item}) => {
+const LiveAnywhereCard: FC<LiveAnywhereCardProps> = ({item}) => {
   const { img, title } = item;
   return (
     <div className='pointer hover:scale-105 transition transform duration-300 ease-out'>
