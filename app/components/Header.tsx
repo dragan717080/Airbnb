@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import Image from 'next/image';
-import { MagnifyingGlassIcon, GlobeAltIcon, MenuIcon, UserCircleIcon, UsersIcon } from '@heroicons/react/24/outline';
+import { MagnifyingGlassIcon, GlobeAltIcon, UserCircleIcon, UsersIcon } from '@heroicons/react/24/outline';
 
 const Header: FC = () => {
   return (
