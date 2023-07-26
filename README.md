@@ -17,6 +17,6 @@ The Airbnb clone is built using following technologies:
 
 - **Tailwind CSS** - Tailwind CSS is a utility-first CSS framework that provides a wide range of pre-designed utility classes, allowing for rapid and flexible UI development.
 
-Utilizing the latest frontend technologies, it creates seamless and immersive user experience with its fluidity and responsiveness. In future more features will be added.
+At the moment its focus is on using the last frontend technologies to provide seamless and immersive user experience. In future more features will be added.
 
 - **App Hosted on Vercel** - <a href = 'https://airbnb-amber-pi.vercel.app/'>https://airbnb-amber-pi.vercel.app/</a>
