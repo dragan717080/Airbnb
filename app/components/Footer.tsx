@@ -9,7 +9,7 @@ const Footer: FC = () => {
         <div className='space-y-4 text-xs text-gray-700' key={index} >
           <h5 className="u bold">{ category === 'Villas' ? 'Asia Villas' : category }</h5>
           { hotelData[category].map((hotel, index) => 
-            <p>{`${hotel} ${ category === 'Villas' ? 'Villas' : 'Hotels' }`}</p>) }
+            <p key={index} >{`${hotel} ${ category === 'Villas' ? 'Villas' : 'Hotels' }`}</p>) }
         </div>
       ))}
     </div>
