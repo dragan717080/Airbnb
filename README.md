@@ -16,3 +16,7 @@ The Airbnb clone is built using following technologies:
 - **TypeScript** - TypeScript is a programming language developed and maintained by Microsoft. It is a superset of JavaScript, meaning that it extends JavaScript by adding static typing to the language.
 
 - **Tailwind CSS** - Tailwind CSS is a utility-first CSS framework that provides a wide range of pre-designed utility classes, allowing for rapid and flexible UI development.
+
+Utilizing the latest frontend technologies, it creates seamless and immersive user experience with its fluidity and responsiveness. In future more features will be added.
+
+- **App Hosted on Vercel** - <a href = 'https://airbnb-amber-pi.vercel.app/'>https://airbnb-amber-pi.vercel.app/</a>
