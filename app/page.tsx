@@ -1,8 +1,7 @@
-import { FC } from 'react';
 import Image from 'next/image';
 import { Header, Banner, ExploreCards, LiveAnywhereCards, LargeCard, Footer } from './components';
 
-export default function Home(): FC {
+export default function Home() {
 
   return (
     <div>
