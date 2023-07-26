@@ -1,4 +1,4 @@
-# Anime App
+# Airbnb Clone
 
 <div style="display: flex; justify-content: center;">
     <img src="https://github.com/dragan717080/Airbnb/assets/135660124/37bfb31d-0f16-4a1c-b0ac-3ed64fa6ad06" 
